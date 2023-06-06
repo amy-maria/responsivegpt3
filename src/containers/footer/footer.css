@@ -1,0 +1,69 @@
+.gpt3__footer-section-heading h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gpt3__footer-section-heading button {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.gpt3__footer-links_container h6 {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.gpt3__footer-links_container li {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.gpt3__footer-company_container h6 {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.gpt3__footer-company_container li {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.gpt3__footer-contact_container h6 {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.gpt3__footer-contact_container li {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.gpt3__footer-copyright {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}

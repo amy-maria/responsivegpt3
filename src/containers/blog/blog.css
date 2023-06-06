@@ -1,0 +1,50 @@
+.gpt3__blog section-container {
+  display: flex;
+}
+.gpt3__blog section-container h1 {
+  font-family: var(--font-family);
+
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gpt3__blog-content_blog1 date {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.gpt3__blog-content_blog1 text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  /* or 121% */
+
+  color: #ffffff;
+}
+.gpt3__blog-content_sub-container date {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.gpt3__blog-content_sub-container text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19.3154px;
+  line-height: 30px;
+  color: #ffffff;
+}
