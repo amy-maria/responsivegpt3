@@ -1,0 +1,23 @@
+.gpt3__features-section_heading h1 {
+  font-family: var(--font-family);
+
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  /* or 132% */
+
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+}
+
+.gpt3__features-section_heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff8a71;
+}

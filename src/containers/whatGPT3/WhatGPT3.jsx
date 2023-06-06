@@ -4,8 +4,8 @@ import Feature from "../../components/feature/Feature";
 
 const WhatGPT3 = () => (
   <div>
-    <div className="gpt3__whatGPT3-section_margin">
-      <div className="gpt3__whatGPT3-feature">
+    <div className="gpt3__whatgpt-section_margin" id="wgtp3">
+      <div className="gpt3__whatgpt3-feature">
         <Feature
           title="What is GPT-3"
           text="
@@ -15,13 +15,13 @@ const WhatGPT3 = () => (
           insisted so humanity he. Friendly bachelor entrance to on by."
         />
       </div>
-      <div className="gpt3__whatGPT3-library_link">
-        <h1 className="gradient_text">
+      <div className="gpt3__whatgpt3-heading">
+        <h1 className="gradient__text">
           The possibilities are beyond your imagination
         </h1>
         <p>Explore The Library</p>
       </div>
-      <div className="gpt3__whatGPT3-container">
+      <div className="gpt3__whatgpt3-container">
         <Feature
           title="Chatbots"
           text="
@@ -48,3 +48,5 @@ const WhatGPT3 = () => (
 );
 
 export default WhatGPT3;
+
+//Initially coded myself but I had to make changes once I figured out he imported stying from Feature.jsx//
