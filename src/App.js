@@ -14,6 +14,7 @@ import "./App.css";
 
 const App = () => (
   <div className="App">
+    <h1>start</h1>
     <div className="gradient__bg">
       <Navbar />
       <Header />
