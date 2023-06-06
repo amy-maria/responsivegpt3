@@ -1,0 +1,13 @@
+.gpt3__brand-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 46.48px;
+
+  position: absolute;
+  width: 670.56px;
+  height: 24.15px;
+  left: 399px;
+  top: 893px;
+}
