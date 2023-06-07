@@ -1,7 +1,6 @@
-.gpt3__whatgpt3 {
+.gpt3__whatgpt {
   display: flex;
   flex-direction: column;
-
   padding: 2rem;
   background: var(--color-footer);
 
@@ -51,9 +50,7 @@
 .gpt3__whatgpt3-feature {
   display: flex;
 }
-
-/* Customizing feature component as per needs */
-.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+.gpt3__whatgpt3-feature .gpt3__whatgpt3-container {
   margin: 0;
 }
 

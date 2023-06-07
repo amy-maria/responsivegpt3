@@ -4,7 +4,7 @@ import { google, slack, atlassian, dropbox, shopify } from "./imports";
 import "./brand.css";
 
 const Brand = () => (
-  <div className="gpt3__brand-icons">
+  <div className="gpt3__brand section-icons">
     <div>
       <img src={google} alt="google-icon" />
     </div>
