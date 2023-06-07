@@ -1,11 +1,16 @@
+.gpt3__features {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 30px;
+}
 .gpt3__features-section_heading h1 {
   font-family: var(--font-family);
-
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
-  /* or 132% */
-
   background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
     #ffffff;
   -webkit-background-clip: text;
@@ -20,4 +25,12 @@
   font-size: 16px;
   line-height: 30px;
   color: #ff8a71;
+  margin-top: 50px;
+}
+
+.gpt3__features-section_right-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 50px;
 }

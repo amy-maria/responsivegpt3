@@ -3,7 +3,7 @@ import "./features.css";
 import Feature from "../../components/feature/Feature";
 
 const Features = () => (
-  <div className="gpt3__features-section_container">
+  <div className="gpt3__features section_container">
     <div className="gpt3__features-section_heading">
       <h1>
         The Future is Now and You Just Need To Realize It. Step into Future

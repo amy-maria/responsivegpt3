@@ -4,7 +4,8 @@
 }
 .gpt3__possibility-woman {
   flex: 1;
-  flex-direction: column;
+  display: flex;
+
   justify-content: flex-start;
   align-items: center;
   margin-right: 2rem;
@@ -13,6 +14,14 @@
   width: 100%;
   height: 100%;
 }
+.gpt3__possibility-container_content-access {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
 .gpt3__possibility-container_content-access h4 {
   font-family: var(--font-family);
   font-weight: 500;
@@ -23,16 +32,10 @@
 
 .gpt3__possibility-container_content-access h1 {
   font-family: var(--font-family);
-
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
-  /* or 132% */
-
-  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%), #ffffff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  margin: 1rem 0;
 }
 .gpt3__possibility-container_content-access p {
   font-family: var(--font-family);
@@ -40,13 +43,38 @@
   font-size: 16px;
   line-height: 30px;
   color: #81afdd;
+  margin-bottom: 2rem;
 }
 
-.gpt3__possibility-container_content-access h4::after {
+.gpt3__possibility-container_content-access h4:last-child {
   font-family: var(--font-family);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
   color: #ff8a71;
+}
+@media screen and (max-width: 950px) {
+  .gpt3__possibility {
+    flex-direction: column;
+  }
+
+  .gpt3__possibility-woman {
+    margin: 1rem 0;
+  }
+
+  .gpt3__possibility-woman img {
+    width: unset;
+    height: unset;
+  }
+
+  .gpt3__possibility-container_content-access {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gpt3__possibility-woman img {
+    width: 100%;
+    height: 100%;
+  }
 }
