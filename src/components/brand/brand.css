@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap; /*use flexwrap insread of flex direction*/
   align-items: center;
+  justify-content: center;
 }
 .gpt3__brand div {
   flex: 1;
