@@ -9,14 +9,14 @@ const Blog = () => (
       <h1>A lot is happening, We are blogging about it.</h1>
     </div>
     <div className="gpt3__blog-content_container">
-      <div className="gpt3__blog-content_blog1">
+      <div className="gpt3__blog-content_blogA">
         <Article
           imgUrl={blog1}
           alt="blog1-image"
           date="Sep 26, 2021"
           text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
         />
-        <div className="gpt3__blog-content_sub-container"></div>
+        <div className="gpt3__blog-content_blogB"></div>
         <Article
           imgUrl={blog2}
           alt="blog2-image"

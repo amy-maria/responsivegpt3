@@ -1,24 +1,23 @@
 import React from "react";
-import "./brand.css";
 import { google, slack, atlassian, dropbox, shopify } from "./imports";
 import "./brand.css";
 
 const Brand = () => (
   <div className="gpt3__brand section-icons">
     <div>
-      <img src={google} alt="google-icon" />
+      <img src={google} alt="google" />
     </div>
     <div>
-      <img src={slack} alt="slack-icon" />
+      <img src={slack} alt="slack" />
     </div>
     <div>
-      <img src={atlassian} alt="atlassian-icon" />
+      <img src={atlassian} alt="atlassian" />
     </div>
     <div>
-      <img src={dropbox} alt="dropbox-icon" />
+      <img src={dropbox} alt="dropbox" />
     </div>
     <div>
-      <img src={shopify} alt="shopify-icon" />
+      <img src={shopify} alt="shopify" />
     </div>
   </div>
 );
