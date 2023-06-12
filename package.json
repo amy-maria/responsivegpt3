@@ -5,6 +5,9 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^5.0.0",
+    "netlify": "^13.1.9",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^15.4.2"
   }
 }
