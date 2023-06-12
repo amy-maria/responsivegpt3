@@ -51,7 +51,8 @@
   display: flex;
 }
 .gpt3__whatgpt3-feature .gpt3__whatgpt3-container {
-  margin: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Customizing feature component as per needs */
@@ -141,5 +142,10 @@
   .gpt3__whatgpt3-container .gpt3__features-container__feature {
     margin: 1rem 0;
     min-width: 100%;
+  }
+}
+@media (orientation: landscape) {
+  .gpt3__whatgpt section_margin {
+    margin: 2rem;
   }
 }

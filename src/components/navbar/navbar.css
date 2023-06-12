@@ -132,3 +132,12 @@
     display: block;
   }
 }
+@media (orientation: landscape) {
+  .gpt3__navbar-links_logo {
+    padding: 0;
+  }
+  .gpt3__navbar-links_logo img {
+    width: auto;
+    height: auto;
+  }
+}

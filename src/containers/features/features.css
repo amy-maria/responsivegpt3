@@ -41,12 +41,31 @@
   .gpt3__features-section-heading {
     margin: 0 0 2rem 0;
   }
+  .gpt3__features-section_heading h1 {
+    font-size: 24px;
+    line-height: 27px;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  .gpt3__features-section_heading p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .gpt3__features-section_heading h1 {
-    font-size: 28px;
-    list-height: 30px;
-    flex-wrap: wrap;
+    font-size: 24px;
+    line-height: 27px;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  .gpt3__features-section_heading p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .gpt3__features-section_right-column {
+    margin: 0 auto;
+    padding-right: 4.5rem;
   }
 }
