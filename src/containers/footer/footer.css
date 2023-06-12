@@ -1,0 +1,161 @@
+.gpt3__footer section {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+.gpt3__footer-section-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gpt3__footer-section-heading button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+  padding: 1rem;
+  background: #031b34;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  word-spacing: 2px;
+}
+.gpt3__footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.gpt3__footer-logo_container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+gpt3__footer-logo_container img {
+  width: 118px;
+  height: 30px;
+}
+
+.gpt3__footer-logo_container p {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-top: 3rem;
+}
+.gpt3__footer-links_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.gpt3__footer-links_container h6,
+.gpt3__footer-company_container h6,
+.gpt3__footer-contact_container h6 {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.gpt3__footer-links_container p,
+.gpt3__footer-company_container p,
+.gpt3__footer-contact_container p {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.gpt3__footer-copyright {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.gpt3__footer-copyright p {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+@media screen and (max-width: 550px) {
+  .gpt3__footer-section-heading h1 {
+    font-size: 24px;
+    line-height: 27px;
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+
+  .gpt3__footer-logo_container {
+    margin-left: 0px;
+  }
+
+  .gpt3__footer-logo_container img {
+    width: 100px;
+  }
+  .gpt3__footer-logo_container p {
+    display: none;
+  }
+  .gpt3__footer-links {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .gpt3__footer h6 {
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+  }
+  .gpt3__footer p {
+    margin-left: 2rem;
+    padding: 0.5rem;
+  }
+  .gpt3__footer-copyright {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .gpt3__footer section {
+    margin-right: 0;
+  }
+  .gpt3__footer-section-heading h1 {
+    font-size: 48px;
+    line-height: 60px;
+    padding: 1rem;
+    margin-left: 0;
+  }
+  .gpt3__footer-section-heading button {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .gpt3__footer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .gpt3__footer-logo_container {
+    margin: 0;
+  }
+}
