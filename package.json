@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "-  deploy": "gh-pages -d build",
+    "- deploy": "gh-pages -d build",
     "+ deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,6 +42,7 @@
   },
   "homepage": "https://github.com/amy-maria/responsivegpt3"
 }
+
 
     
 
